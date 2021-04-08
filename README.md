@@ -15,6 +15,7 @@ https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_income
 ## Data Cleanup & Analysis
 Please review csvs file for raw data sets
 Please review file etl_b-checkpoint.ipynb for code
+
 ### Extract Phase: 
 1.	From JSON file get Unievrsity, University Rank and Enrollment Rate
 2.	From salary_potential get University, Early Pay Career and Mid Career Pay
@@ -29,6 +30,7 @@ Please review file etl_b-checkpoint.ipynb for code
 
 ### Load Phase:
 Connection to local Data Base
+
 Confirm data has been added by querying
 _____________________________________________________________
 # Guidelines for ETL Project
