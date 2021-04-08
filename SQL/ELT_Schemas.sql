@@ -1,4 +1,4 @@
-DROP TABLE json
+DROP TABLE IF EXISTS json
 CREATE TABLE json(
 id INT PRIMARY KEY 
 rank INT,
@@ -6,21 +6,21 @@ name TEXT,
 enrollment INT
 );
 
-DROP TABLE salary_potential
+DROP TABLE IF EXISTS salary_potential
 CREATE TABLE salary_potential(
 name TEXT,
 early_career_pay INT, 
 mid_career_pay INT
 ); 
 
-DROP TABLE tuition_cost
+DROP TABLE IF EXISTS tuition_cost
 CREATE TABLE tuition_cost( 
 name TEXT,
 state TEXT, 
 state_code CHAR(5)
 );  
 
-DROP TABLE GDL_income
+DROP TABLE IF EXISTS GDL_income
 CREATE TABLE GDL_income(
 state TEXT, 
 "2006 income index" FLOAT(3), 
@@ -36,7 +36,7 @@ state TEXT,
 "2016 income index" FLOAT(3)
 );
 
-DROP TABLE GDL_educational
+DROP TABLE IF EXISTS GDL_educational
 CREATE TABLE GDL_educational(
 state TEXT, 
 "2006 educational index" FLOAT(3), 

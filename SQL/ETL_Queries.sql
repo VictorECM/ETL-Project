@@ -1,4 +1,4 @@
-DROP TABLE raw_df
+DROP TABLE IF EXISTS raw_df
 CREATE TABLE raw_df(
 id INT PRIMARY KEY, 
 rank INT,
@@ -12,7 +12,7 @@ state_code CHAR(5)
 
 SELECT * FROM raw_df; 
 
-DROP TABLE index_df
+DROP TABLE IF EXISTS index_df
 CREATE TABLE index_df(
 id int PRIMARY KEY, 
 state TEXT, 
