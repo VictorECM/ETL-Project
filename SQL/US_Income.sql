@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS US_Income
+CREATE TABLE US_Income(
+"state" TEXT ,
+"MHI 2014" INT,    
+"MHI 2015" INT,
+"MHI 2016" INT,
+"MHI 2017" INT,
+"MHI 2018" INT
+);
+
+SELECT * FROM US_Income;
+
