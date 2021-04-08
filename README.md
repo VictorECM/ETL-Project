@@ -7,10 +7,10 @@ For this project we are tasked to migrate a cluster of data into a production da
 After reviewing several data sources, such as data.world & Kaggle, the team came across dataset about US Universities ranking, enrollment rates and the expect salary as time of graduation. Then, we decided to cross this info with the median income per state
 
 Final data set used is:
-•	University Statistics (Ranking, Enrollment):  https://www.kaggle.com/theriley106/university-statistics 
-•	Salary Expectance: https://www.kaggle.com/jessemostipak/college-tuition-diversity-and-pay
-•	Income per state: https://worldpopulationreview.com/state-rankings/median-household-income-by-state
-https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_income
+ •	University Statistics (Ranking, Enrollment):  https://www.kaggle.com/theriley106/university-statistics 
+ •Salary Expectance: https://www.kaggle.com/jessemostipak/college-tuition-diversity-and-pay  
+ •Income per state: https://worldpopulationreview.com/state-rankings/median-household-income-by-state  
+  https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_income  
 
 ## Data Cleanup & Analysis
 Please review csvs file for raw data sets
