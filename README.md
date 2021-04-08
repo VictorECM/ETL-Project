@@ -1,3 +1,36 @@
+# ETL Project - Team 2
+
+## Project Proposal
+For this project we are tasked to migrate a cluster of data into a production data base.
+
+### Finding Data
+After reviewing several data sources, such as data.world & Kaggle, the team came across dataset about US Universities ranking, enrollment rates and the expect salary as time of graduation. Then, we decided to cross this info with the median income per state
+
+Final data set used is:
+•	University Statistics (Ranking, Enrollment):  https://www.kaggle.com/theriley106/university-statistics 
+•	Salary Expectance: https://www.kaggle.com/jessemostipak/college-tuition-diversity-and-pay
+•	Income per state: https://worldpopulationreview.com/state-rankings/median-household-income-by-state
+https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_income
+
+## Data Cleanup & Analysis
+Please review csvs file for raw data sets
+Please review file etl_b-checkpoint.ipynb for code
+### Extract Phase: 
+1.	From JSON file get Unievrsity, University Rank and Enrollment Rate
+2.	From salary_potential get University, Early Pay Career and Mid Career Pay
+3.	From tuiton_Cost get University, State
+4.	From US_Income14_18 get State, Median Income Household per year (2014 – 2018)
+
+### Transform Phase:
+1.	Merge between JSON and salary_potential to get first_merge by name
+2.	Merge between first_merge, tuiton_cost by name
+3.	Get Final table (raw_df)
+4.	Save csv files
+
+### Load Phase:
+Connection to local Data Base
+Confirm data has been added by querying
+_____________________________________________________________
 # Guidelines for ETL Project
 
 This document contains guidelines, requirements, and suggestions for Project 1.
