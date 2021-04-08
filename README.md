@@ -17,7 +17,7 @@ Please review csvs file for raw data sets
 Please review file etl_b-checkpoint.ipynb for code
 
 ### Extract Phase: 
-1.	From JSON file get Unievrsity, University Rank and Enrollment Rate
+1.	From JSON file get University Name, University Rank and Enrollment Rate
 2.	From salary_potential get University, Early Pay Career and Mid Career Pay
 3.	From tuiton_Cost get University, State
 4.	From US_Income14_18 get State, Median Income Household per year (2014 – 2018)
