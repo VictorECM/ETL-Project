@@ -1,20 +1,5 @@
-DROP TABLE IF EXISTS raw_df
-CREATE TABLE raw_df(
-id INT PRIMARY KEY, 
-rank INT,
-name TEXT, 
-enrollment INT, 
-early_career_pay INT, 
-mid_career_pay INT, 
-state TEXT, 
-state_code CHAR(5)
-);
-
-SELECT * FROM raw_df; 
-
 DROP TABLE IF EXISTS index_df
 CREATE TABLE index_df(
-id int PRIMARY KEY, 
 state TEXT, 
 "2006 income index" FLOAT(3), 
 "2007 income index" FLOAT(3),
