@@ -32,11 +32,14 @@ Please review file etl_b-checkpoint.ipynb for code
 !!FOR FINAL RESULTS PLEASE CHECK JUPYTER NOTEBOOK  
 Connection to local Data Base
 
-![image](https://user-images.githubusercontent.com/75657316/114115421-67e63580-98a8-11eb-85d5-33589b2cbd1e.png)
+Screen Shot 2021-04-08 at 20.30.44![image](https://user-images.githubusercontent.com/75657316/114115962-6ff2a500-98a9-11eb-9000-e7b0b7bcd9c5.png)
 
-Confirm data has been added by querying
+Confirm data has been added by querying  
 
-![image](https://user-images.githubusercontent.com/75657316/114115480-83514080-98a8-11eb-9a6f-927141168d72.png)
+Screen Shot 2021-04-08 at 20.32.54![image](https://user-images.githubusercontent.com/75657316/114116094-a0d2da00-98a9-11eb-8083-307c2c29663c.png)  
+
+![image](https://user-images.githubusercontent.com/75657316/114116016-8698fc00-98a9-11eb-9c28-1f17fed9d33b.png)
+
 
 _____________________________________________________________
 # Guidelines for ETL Project
