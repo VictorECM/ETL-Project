@@ -29,6 +29,7 @@ Please review file etl_b-checkpoint.ipynb for code
 4.	Save csv files
 
 ### Load Phase:
+!!FOR FINAL RESULTS PLEASE CHECK JUPYTER NOTEBOOK  
 Connection to local Data Base
 
 ![image](https://user-images.githubusercontent.com/75657316/114115421-67e63580-98a8-11eb-85d5-33589b2cbd1e.png)
@@ -37,7 +38,6 @@ Confirm data has been added by querying
 
 ![image](https://user-images.githubusercontent.com/75657316/114115480-83514080-98a8-11eb-9a6f-927141168d72.png)
 
-Connection to local Data Base
 _____________________________________________________________
 # Guidelines for ETL Project
 
