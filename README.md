@@ -40,6 +40,9 @@ Screen Shot 2021-04-08 at 20.32.54![image](https://user-images.githubusercontent
 
 ![image](https://user-images.githubusercontent.com/75657316/114116016-8698fc00-98a9-11eb-9c28-1f17fed9d33b.png)
 
+![image](https://user-images.githubusercontent.com/75512037/114224039-2ac88480-9936-11eb-86a9-54912432f53f.png)
+
+
 
 _____________________________________________________________
 # Guidelines for ETL Project
